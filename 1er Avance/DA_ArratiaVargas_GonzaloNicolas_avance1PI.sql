@@ -1,6 +1,6 @@
---Paso 1: CREACI”N DE LA BASE DE DATOS
---Crea la base de datos, almacenando sus archivos en una carpeta especÌfica en el disco C.
-/*En este caso se llamar· FastFood, estar· dentro de la carpeta "Proyecto_Integrador2"*/
+--Paso 1: CREACI√ìN DE LA BASE DE DATOS
+--Crea la base de datos, almacenando sus archivos en una carpeta espec√≠fica en el disco C.
+/*En este caso se llamar√° FastFood, estar√° dentro de la carpeta "Proyecto_Integrador2"*/
 CREATE DATABASE FastFood
 ON
 ( NAME = 'FastFood_Data',
@@ -18,7 +18,7 @@ LOG ON
 --Refrescar y ubicarme en la base creada
 USE FastFood;
 
---Paso 2: CREACI”N DE TABLA Y COLUMNAS
+--Paso 2: CREACI√ìN DE TABLA Y COLUMNAS
 --	TABLA Categorias
 CREATE TABLE Categorias(
 	/*Creamos la clave primaria de tipo entero 
@@ -32,7 +32,7 @@ CREATE TABLE Categorias(
 CREATE TABLE Productos(
 	cod_producto INT PRIMARY KEY IDENTITY,
 	nombre_producto NVARCHAR(150) NOT NULL,
-	--Precio tendr· 10 digitos maximo y 2 deccimales
+	--Precio tendr√° 10 digitos maximo y 2 deccimales
 	precio DECIMAL(10,2),
 	stock INT NOT NULL,
 	id_categoria INT,
@@ -90,7 +90,7 @@ CREATE TABLE Mensajeros(
 --Tabla Ordenes
 CREATE TABLE Ordenes(
 	id_orden INT PRIMARY KEY IDENTITY,
-	horario_venta NVARCHAR(20) NOT NULL, --MaÒana, Tarde o Noche
+	horario_venta NVARCHAR(20) NOT NULL, --Ma√±ana, Tarde o Noche
 	total_compra DECIMAL(10,2) NOT NULL,
 	kilometros_recorrer FLOAT NOT NULL,
 	fecha_despacho DATETIME,
