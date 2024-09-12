@@ -1,8 +1,8 @@
-## Población de tablas mediante queries
+# Población de tablas mediante queries
 
 En esta fase, avanzaremos al siguiente nivel, poblando nuestras tablas con datos. Utilizaremos sentencias DML, como INSERT, UPDATE y DELETE, para gestionar la información almacenada en la base de datos. Además, exploraremos consultas que nos permitirán extraer resultados básicos.
 
-# Preguntas para consultas
+## Preguntas para consultas
 
 1 Registros únicos
 Pregunta: ¿Cuál es la cantidad total de registros únicos en la tabla de órdenes?
