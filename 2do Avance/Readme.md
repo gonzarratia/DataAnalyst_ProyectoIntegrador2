@@ -17,4 +17,4 @@ Pregunta: ¿Cuántos productos hay por código de categoría?
 Pregunta: ¿Cuántos clientes se han importado a la tabla de clientes?
 
 5 Análisis de desempeño de sucursales
-Pregunta: ¿Cuáles son las sucursales con un promedio de Facturación/Ingresos superior a 1000.00 y que minimizan sus costos en base al promedio de kilómetros recorridos de todas de sus entregas gestionadas? Para un mejor relevamiento, ordene el listado por el Promedio Km Recorridos.
+Pregunta: ¿Cuáles son las sucursales con un promedio de Facturación/Ingresos superior a 1000.00 y que minimizan sus costos en base al promedio de kilómetros recorridos de todas de sus entregas gestionadas? Para un mejor relevamiento, ordene el listado por el Promedio Km Recorridos. 
