@@ -1,8 +1,8 @@
-#Consultas con funciones de agregación
+# Consultas con funciones de agregación
 
 En este punto, nos enfocaremos en consultas más avanzadas utilizando funciones de agregación. A través de SUM, AVG, MIN y MAX podrás obtener información valiosa y responder a preguntas específicas sobre los datos almacenados en nuestra base.
 
-###Consignas
+## Consignas
 
 1 Total de ventas globales
 Pregunta: ¿Cuál es el total de ventas (TotalCompra) a nivel global?
