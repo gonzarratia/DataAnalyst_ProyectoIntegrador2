@@ -91,7 +91,7 @@ Select * from Detalles
 Select * from Productos
 
 
---UPDATE Y DELETE
+--UPDATE
 
 -- Aumentar el precio de todos los productos un 10% en la categoría 1
 UPDATE Productos SET Precio = Precio * 1.10 WHERE id_categoria = 1;
@@ -106,7 +106,7 @@ SELECT * FROM Empleados
 UPDATE Sucursales SET ubicacion = '1234 New Address St' WHERE id_sucursal = 1;
 SELECT * FROM Sucursales
 
---ELIMINACIONES DE EJEMPLO (DELETE)
+--ELIMINACIONES
 
 /*1. Eliminar una orden específica por ejemplo, la orden con OrdenID = 10. 
 Esta operación eliminaría la orden junto con sus detalles asociados 
