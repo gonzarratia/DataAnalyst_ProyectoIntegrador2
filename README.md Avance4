@@ -1,0 +1,13 @@
+# Los Objetivos
+
+Crear y manipular vistas reconociendo las ventajas de su uso en términos de seguridad, simplicidad de consulta y mantenimiento de datos. 
+
+2 Comprender el concepto de variables en SQL, incluyendo su declaración, tipos de datos asociados, y cómo se utilizan para almacenar información temporal en bases de datos.
+
+3 Dominar el uso avanzado de variables en SQL, abarcando temas como @@Identity y @@Rowcount, la declaración y asignación en una sola sentencia, así como entender el ámbito de las variables y los diferentes tipos de datos disponibles en este contexto.
+
+4 Comprender el concepto y la utilidad de las Funciones Escalares y las Funciones de Tabla.
+
+5 Definir y ejecutar consultas SQL que utilicen funciones escalares para realizar operaciones matemáticas, de conversión, de fecha y hora, y de caracteres, así como funciones de tabla para encapsular consultas complejas con parámetros personalizados
+
+6 Definir y ejecutar consultas SQL que utilicen subconsultas para realizar operaciones como la selección, la actualización y la inserción de datos.
